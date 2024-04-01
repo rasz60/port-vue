@@ -35,32 +35,9 @@ export default {
         },
     },
 };
-
-export const headerNav = [
-    {
-        title: "intro",
-        url: "#intro",
-    },
-    {
-        title: "skill",
-        url: "#skill",
-    },
-    {
-        title: "site",
-        url: "#site",
-    },
-    {
-        title: "portfolio",
-        url: "#port",
-    },
-    {
-        title: "contact",
-        url: "#contact",
-    },
-];
 </script>
 
-<style>
+<style lang="scss">
 @import "@/assets/scss/mixin";
 
 #header {
